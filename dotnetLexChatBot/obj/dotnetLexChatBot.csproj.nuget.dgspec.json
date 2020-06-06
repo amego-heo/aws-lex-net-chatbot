@@ -20,13 +20,13 @@
           "/Users/heozoi/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -37,7 +37,26 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -48,14 +67,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
         }
       }
