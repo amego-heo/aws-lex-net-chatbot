@@ -1,0 +1,4 @@
+/Volumes/Zoi_DATA/AWS/aws-lex-net-chatbot/dotnetLexChatBot/obj/Debug/netcoreapp2.2/dotnetLexChatBot.csprojAssemblyReference.cache
+/Volumes/Zoi_DATA/AWS/aws-lex-net-chatbot/dotnetLexChatBot/obj/Debug/netcoreapp2.2/dotnetLexChatBot.csproj.CoreCompileInputs.cache
+/Volumes/Zoi_DATA/AWS/aws-lex-net-chatbot/dotnetLexChatBot/obj/Debug/netcoreapp2.2/dotnetLexChatBot.AssemblyInfoInputs.cache
+/Volumes/Zoi_DATA/AWS/aws-lex-net-chatbot/dotnetLexChatBot/obj/Debug/netcoreapp2.2/dotnetLexChatBot.AssemblyInfo.cs
