@@ -16,7 +16,7 @@ fi
 # un asp.core application
 cd $SERVICE_ROOT
 echo "Current Dir"
-echo pwd
-echo ls -la /usr/bin/dotnet
+pwd
+ls -la /usr/bin/dotnet
 dotnet dotnetLexChatBot.dll &>$SERVICE_ROOT/service.log &
 echo $! > $SERVICE_ROOT/service.pid
