@@ -6,6 +6,15 @@ cd /home/ubuntu/
 if [ ! -f /usr/bin/dotnet ]; then
     echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ xenial main" > /etc/apt/sources.list.d/dotnetdev.list
     echo "HEO HEO"
+    wget https://download.visualstudio.microsoft.com/download/pr/2a2d1b85-9c49-4229-b47e-54dd58f9b3c2/c215ffdb98373689e4ae9655146ae85e/dotnet-dev-ubuntu.18.04-x64.1.1.14.tar.gz
+    mkdir -p /usr/bin/dotnet && tar zxf dotnet-dev-ubuntu.18.04-x64.1.1.14.tar.gz -C /usr/bin/dotnet
+    ls -la /usr/bin/dotnet
+
+    export DOTNET_ROOT=/usr/bin/dotnet
+    export PATH=$PATH:/usr/bin/dotnet
+
+    echo "Version Ne"
+    dotnet --version
     #apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 417A0893
     #apt-get update
 
