@@ -18,5 +18,7 @@ cd $SERVICE_ROOT
 echo "Current Dir"
 pwd
 ls -la /usr/bin/dotnet
+echo "WHICH DOTNET Dir"
+which dotnet
 dotnet dotnetLexChatBot.dll &>$SERVICE_ROOT/service.log &
 echo $! > $SERVICE_ROOT/service.pid
